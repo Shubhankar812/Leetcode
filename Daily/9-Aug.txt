@@ -1,0 +1,17 @@
+Leetcode --- 2616
+
+Greedy + Binary Search
+
+1. Instead of finding the pairs directly we can apply binary search over a range of max. differences.
+   The range will be from 0 to difference of largest & smallest value of sorted array. The 'mid' variable will store the potential maximum 
+   difference
+   For every potential max differences we'll implement a Greedy stratergy to determine if we can get required no. of pairs.
+
+2. Given the max. difference 'mid', we traverse the sorted array to form pairs in Greedy manner. Whenever 2 consecutive no.s in the array 
+   have difference that is less than or equal to mid, then we pair them together. And at the end of the traversal if we get the required
+   number of pairs the that value of 'mid' is feasible.
+
+Time Complexity : O(nlog(m)) 
+Space Complexity : O(n)
+n = array length
+m = difference between max & min value in the array
