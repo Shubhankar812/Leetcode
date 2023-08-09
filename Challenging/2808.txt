@@ -1,0 +1,4 @@
+1. For each no. store all its positions in a map
+2. Find the max gap between 2 consecutive positions of a no.
+3. Find the smallest max gap
+4. Return the smallest max gap divided by 2 as the answer
