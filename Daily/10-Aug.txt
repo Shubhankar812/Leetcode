@@ -1,0 +1,4 @@
+The array elements to the left of minimum element and those to the right of minimum element(including itself) form 2 different 
+sorted arrays.
+The element to be searched in present in one of these 2 parts, so we can apply binary logic to each part and obtain the required 
+answer.
